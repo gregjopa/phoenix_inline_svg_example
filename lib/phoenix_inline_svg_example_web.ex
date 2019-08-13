@@ -39,7 +39,7 @@ defmodule PhoenixInlineSvgExampleWeb do
       # Use all HTML functionality (forms, tags, etc)
       use Phoenix.HTML
 
-      import PhoenixInlineSvg.Helpers
+      use PhoenixInlineSvg.Helpers, otp_app: :phoenix_inline_svg_example
 
       import PhoenixInlineSvgExampleWeb.ErrorHelpers
       import PhoenixInlineSvgExampleWeb.Gettext
