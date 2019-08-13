@@ -9,7 +9,7 @@ defmodule PhoenixInlineSvgExample.Application do
     # List all child processes to be supervised
     children = [
       # Start the Ecto repository
-      PhoenixInlineSvgExample.Repo,
+      # PhoenixInlineSvgExample.Repo,
       # Start the endpoint when the application starts
       PhoenixInlineSvgExampleWeb.Endpoint
       # Starts a worker by calling: PhoenixInlineSvgExample.Worker.start_link(arg)
