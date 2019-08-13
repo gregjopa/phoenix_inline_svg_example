@@ -1,3 +1,9 @@
 /* This file is for your main application css. */
 
 @import "./phoenix.css";
+
+
+.button-svg {
+  height: 15px;
+  fill: white;
+}
